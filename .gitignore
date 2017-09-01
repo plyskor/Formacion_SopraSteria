@@ -1,0 +1,6 @@
+
+*.class
+*.prefs
+ApiTests/.project
+ApiTests/.classpath
+*.zip
