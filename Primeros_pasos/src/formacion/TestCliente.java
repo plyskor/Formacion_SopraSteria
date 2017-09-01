@@ -5,7 +5,7 @@ import modelo.Cliente;
 public class TestCliente {
 
 	public static void main(String[] args) {
-		Cliente cli1,cli2,cli3;
+		Cliente cli1,cli2;
 		cli1=new Cliente("A12346","Sopra_Steria",0,0.0);
 		//cli1.setCif("A12345");
 		//cli1.setRazonSocial("Sopra_Steria");

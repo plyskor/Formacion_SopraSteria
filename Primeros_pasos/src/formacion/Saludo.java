@@ -1,6 +1,7 @@
 package formacion;
 
 public class Saludo {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		byte b;
 		short s1, s2, s3 = 345;

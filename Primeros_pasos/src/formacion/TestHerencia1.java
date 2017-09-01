@@ -8,6 +8,7 @@ import negocio.CatalogoPedidos;
 public class TestHerencia1 {
 
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Pedido p1,p2,p3,p4,p5;
 		Cliente cli = new Cliente("A12345","Sopra_Steria",0,0.0);

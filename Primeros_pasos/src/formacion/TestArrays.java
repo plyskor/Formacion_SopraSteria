@@ -4,7 +4,7 @@ public class TestArrays {
 
 	public static void main(String[] args) {
 		int [] arra1, numPares = {2,4,6,8};
-		String [] nombres = {"Eva","Juan","Andres"};
+		//String [] nombres = {"Eva","Juan","Andres"};
 		numPares[2]=16;
 		arra1=new int[6];
 		for(int i=0;i<numPares.length;i++){
