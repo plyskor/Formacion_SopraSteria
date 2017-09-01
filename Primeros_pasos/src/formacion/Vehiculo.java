@@ -1,6 +1,7 @@
 package formacion;
 
 
+
 public class Vehiculo implements Comparable<Vehiculo> {
 	private static int incr=1;
 	private int idVehiculo;
