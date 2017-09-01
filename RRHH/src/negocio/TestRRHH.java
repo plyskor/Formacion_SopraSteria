@@ -22,14 +22,14 @@ public class TestRRHH {
 		lista=new Empleado[5];
 		lista[0]=e1;
 		lista[1]=e3;
-		d1.setMisEmpleados(lista);
+		/*d1.setMisEmpleados(lista);
 		d1.incrEmpleados();
-		d1.incrEmpleados();
+		d1.incrEmpleados();*/
 		lista[0]=e2;
 		lista[1]=e4;
+		/*d2.incrEmpleados();
 		d2.incrEmpleados();
-		d2.incrEmpleados();
-		d2.setMisEmpleados(lista);
+		d2.setMisEmpleados(lista);*/
 		d1.setDescDep("Departamento IT");
 		d1.setJefeDep(e1);
 		d1.addEmpleado(e5);
