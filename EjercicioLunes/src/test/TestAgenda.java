@@ -1,5 +1,7 @@
 package test;
 
+import java.io.FileNotFoundException;
+
 import modelo.*;
 
 public class TestAgenda {
@@ -21,7 +23,12 @@ public class TestAgenda {
 		  a.ordenarAgenda(); 
 		  a.modificarContacto(c4); 
 		  a.listarContactos();
-		  a.exportarContactos("agenda.data");
+		  try {
+			a.exportarContactos("agenda.data");
+		} catch (FileNotFoundException e) {
+			System.out.println("ERROR: El fichero no se puede crear");
+			//e.printStackTrace();
+		}
 		  a.importarContactos("dos.data");
 		  a.listarContactos();
 	}

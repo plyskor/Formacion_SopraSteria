@@ -1,5 +1,7 @@
 package modelo;
 
+import java.io.FileNotFoundException;
+
 public interface IntAgenda {
 	public boolean addContacto(Contacto c);
 
@@ -11,7 +13,7 @@ public interface IntAgenda {
 
 	public void ordenarAgenda();
 
-	public boolean exportarContactos(String file);
+	public boolean exportarContactos(String file) throws FileNotFoundException;
 
 	public void importarContactos(String file);
 

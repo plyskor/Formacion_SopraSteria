@@ -1,6 +1,7 @@
 package modelo;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -94,7 +95,7 @@ public class Agenda implements IntAgenda {
 	 * Recorre la lista y saca los objetos (uno a uno) a un fichero (mendiante la
 	 * interfaz Serializable)
 	 */
-	public boolean exportarContactos(String file) {
+	public boolean exportarContactos(String file) throws FileNotFoundException {
 		if (file == null) {
 			System.out.println("ERROR: no se especifico archivo para exportar contactos.");
 			return false;
