@@ -2,10 +2,12 @@ package modelo;
 
 public abstract class AbstractContTelefono extends Contacto {
 	private static final long serialVersionUID = 4202190674887466360L;
+
 	public AbstractContTelefono(String nombre, String telefono, String email) {
 		super(nombre, telefono);
 		this.email = new String(email);
 	}
+
 	public AbstractContTelefono() {
 		super();
 	}
@@ -19,4 +21,5 @@ public abstract class AbstractContTelefono extends Contacto {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	public abstract boolean cambiarContacto(AbstractContTelefono c);
 }
